@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		140DAE0B1DCC2C3200E9720C /* Cook.m in Sources */ = {isa = PBXBuildFile; fileRef = 140DAE0A1DCC2C3200E9720C /* Cook.m */; };
+		140DAE0E1DCC330200E9720C /* Chef.m in Sources */ = {isa = PBXBuildFile; fileRef = 140DAE0D1DCC330200E9720C /* Chef.m */; };
 		8BF87F6E1CDB2B21001943DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF87F6D1CDB2B21001943DE /* main.m */; };
 		8BF87F761CDB2B34001943DE /* FoodTruck.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF87F751CDB2B34001943DE /* FoodTruck.m */; };
 /* End PBXBuildFile section */
@@ -24,6 +26,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		140DAE091DCC2C3200E9720C /* Cook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cook.h; sourceTree = "<group>"; };
+		140DAE0A1DCC2C3200E9720C /* Cook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cook.m; sourceTree = "<group>"; };
+		140DAE0C1DCC330200E9720C /* Chef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chef.h; sourceTree = "<group>"; };
+		140DAE0D1DCC330200E9720C /* Chef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chef.m; sourceTree = "<group>"; };
 		8BF87F6A1CDB2B21001943DE /* Foodtruck */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Foodtruck; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BF87F6D1CDB2B21001943DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8BF87F741CDB2B34001943DE /* FoodTruck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodTruck.h; sourceTree = "<group>"; };
@@ -61,6 +67,10 @@
 			isa = PBXGroup;
 			children = (
 				8BF87F6D1CDB2B21001943DE /* main.m */,
+				140DAE0C1DCC330200E9720C /* Chef.h */,
+				140DAE0D1DCC330200E9720C /* Chef.m */,
+				140DAE091DCC2C3200E9720C /* Cook.h */,
+				140DAE0A1DCC2C3200E9720C /* Cook.m */,
 				8BF87F741CDB2B34001943DE /* FoodTruck.h */,
 				8BF87F751CDB2B34001943DE /* FoodTruck.m */,
 			);
@@ -125,6 +135,8 @@
 			files = (
 				8BF87F6E1CDB2B21001943DE /* main.m in Sources */,
 				8BF87F761CDB2B34001943DE /* FoodTruck.m in Sources */,
+				140DAE0B1DCC2C3200E9720C /* Cook.m in Sources */,
+				140DAE0E1DCC330200E9720C /* Chef.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +257,7 @@
 				8BF87F731CDB2B21001943DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
