@@ -24,7 +24,7 @@ int main(int argc, const char * argv[]) {
         
         Chef *guyFieri = [[Chef alloc] init];
         
-        truckA.delegate = gordonRamsay;
+        truckA.delegate = guyFieri;
         truckB.delegate = guyFieri;
         
         [truckA serve:10];
